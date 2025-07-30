@@ -38,7 +38,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: [
     'http://localhost:1234',
-    'https://lapinceisfront.vercel.app'
+    'https://la-pince-one.vercel.app/'
   ], // URL DU FRONT
   credentials: true
 }));
